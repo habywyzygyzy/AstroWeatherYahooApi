@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kamil.astroweather2.MainActivity">
+    <item
+        android:id="@+id/clock"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title=""></item>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Refresh"
+        android:onClick="refreshButton"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/cities"
+        android:title="Wybor miasta" />
+    <item
+        android:id="@+id/units"
+        android:title="Jednostki" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="101"
+        android:title="Exit" />
+    <item
+        android:id="@+id/lokalizacja"
+        android:title="Współrzędne" />
+    <item
+        android:id="@+id/freq"
+        android:title="Czestotliwość" />
+</menu>
